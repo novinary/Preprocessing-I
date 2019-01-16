@@ -182,7 +182,7 @@ body {
   margin-top: 2%;
 }
 
-/* style logic below for first-content */
+/* style logic goes below for first-content */
 .container .first-content {
   display: flex;
   font-size: 2.5rem;
@@ -207,6 +207,7 @@ body {
   padding: 2%;
 }
 
+/* style logic goes below for bottom-boxes*/
 .container .bottom-boxes {
   display: flex;
 }
@@ -231,4 +232,15 @@ body {
 }
 .container .bottom-boxes h3 {
   text-decoration: underline;
+}
+.container .bottom-section {
+  padding: 2%;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* style logic goes below for second-content */
+.container .second-content p {
+  padding: 1%;
 }
