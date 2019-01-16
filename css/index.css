@@ -181,3 +181,28 @@ body {
   font-size: 2.4rem;
   margin-top: 2%;
 }
+
+/* style logic below for first-content */
+.container .first-content {
+  display: flex;
+  font-size: 2.5rem;
+  margin: 1%;
+  margin-top: 5%;
+}
+.container .first-content p {
+  padding: 2%;
+  font-size: 1em;
+}
+.container .first-content h1 {
+  font-size: 1.4rem;
+}
+.container .first-content img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 30%;
+  height: 30%;
+}
+.container .first-content p {
+  padding: 2%;
+}
