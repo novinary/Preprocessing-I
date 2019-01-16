@@ -135,7 +135,6 @@ body {
   height: 100%;
   font-size: 62.5%;
 }
-
 .container {
   max-width: 800px;
   color: #0c0b0b;
@@ -143,24 +142,19 @@ body {
   margin: 0 auto;
   font-family: "Times New Roman", Times, serif;
 }
-
 .container .nav-bar {
   font-size: 1.2rem;
   margin-top: 2.5%;
 }
-
 .container a {
   color: #0c0b0b;
   padding: 1em 1.5em;
   text-decoration: none;
   text-transform: uppercase;
 }
-
-/* style logic goes below for nav headers */
 .container a:hover {
   background-color: #555;
 }
-
 .container a:active {
   background-color: black;
 }
@@ -170,19 +164,15 @@ body {
 .container .a-tags {
   padding: 0.4rem;
 }
-
 .container header {
   display: flex;
   justify-content: space-around;
   margin: 1%;
 }
-
 .container h1 {
   font-size: 2.4rem;
   margin-top: 2%;
 }
-
-/* style logic goes below for first-content */
 .container .first-content {
   display: flex;
   font-size: 2.5rem;
@@ -206,8 +196,6 @@ body {
 .container .first-content p {
   padding: 2%;
 }
-
-/* style logic goes below for bottom-boxes*/
 .container .bottom-boxes {
   display: flex;
 }
@@ -233,14 +221,19 @@ body {
 .container .bottom-boxes h3 {
   text-decoration: underline;
 }
+.container .second-content {
+  font-size: 2rem;
+  margin-top: 5%;
+  padding: 2%;
+  margin-bottom: 6%;
+  display: flex;
+}
+.container .second-content p {
+  padding: 1%;
+}
 .container .bottom-section {
   padding: 2%;
   font-size: 1.4rem;
   display: flex;
   flex-direction: column;
-}
-
-/* style logic goes below for second-content */
-.container .second-content p {
-  padding: 1%;
 }

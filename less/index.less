@@ -48,12 +48,161 @@ table {
 	border-spacing: 0;
 }
 
+
 /* Set every element's box-sizing to border-box */
+// MIXIN
+.flex-me() {
+  display:flex;
+}
+
+// VARIABLES
+@main-color: #3C373B;
+@p-padding: 2%;
+@h3-box-font: 3rem;
+
+
 * {
     box-sizing: border-box;
 }
 
 html, body {
 	height: 100%;
+	font-size: 62.5%;
 }
 
+.container {
+	max-width: 800px;
+	color: #0c0b0b;
+    background-image: linear-gradient(to bottom right, whitesmoke, darkgray);
+    margin: 0 auto;
+    font-family: "Times New Roman", Times, serif;
+ .nav-bar {
+	font-size: 1.2rem;
+    margin-top: 2.5%;
+
+ }
+
+ a {
+  color: #0c0b0b;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+a:active {
+  background-color: black;
+}
+
+a:visited {
+  background-color: #ccc;
+}
+
+ .a-tags {
+	padding: 0.4rem;
+
+
+	
+ }
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 1%;
+}
+
+	h1 {
+		font-size: 2.4rem;
+		margin-top: 2%;
+	}
+
+
+.first-content {
+	display: flex;
+    font-size: 2.5rem;
+    margin: 1%;
+	margin-top: 5%;
+	
+	p  {
+			padding: 2%;
+			font-size: 1em;
+	}
+	
+	h1 {
+		font-size: 1.4rem;
+	}
+
+	img {
+		
+		border: 1px solid #ddd;
+  		border-radius: 4px;
+  		padding: 5px;
+		width: 30%;
+		height: 30%;
+		
+	  }
+
+	  p {
+		  padding: 2%;
+	  }
+
+	
+
+}
+
+.bottom-boxes {
+	display: flex;
+
+	h3 {
+		font-size: @h3-box-font;
+		margin-bottom: 2%;
+	}
+
+	ul {
+		font-size: 2.5em;
+    padding: 3%;
+		li {
+			list-style-type: circle;
+		}
+	}
+	
+	.bottom-box {
+	width: 50%;
+	height: 15rem;
+	background-color: rgb(230, 230, 230);
+	margin: 1%;	
+	border-radius: 3.1%;
+	padding: 2%;
+    padding: @p-padding;
+	}
+
+	h3 {
+		text-decoration: underline;
+	}
+}
+
+.second-content {
+	font-size: 2rem;
+    margin-top: 5%;
+    padding: @p-padding;
+	margin-bottom: 6%;
+	display: flex;
+
+	p {
+		padding: 1%;
+	}
+}
+
+.bottom-section {
+	padding: @p-padding;
+	font-size: 1.4rem;
+	display: flex;
+	flex-direction: column;
+}
+
+}
+
+@p-padding: 2%;
+@h3-box-font: 3rem;
