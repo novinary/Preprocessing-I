@@ -206,3 +206,29 @@ body {
 .container .first-content p {
   padding: 2%;
 }
+
+.container .bottom-boxes {
+  display: flex;
+}
+.container .bottom-boxes h3 {
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+.container .bottom-boxes ul {
+  font-size: 2.5em;
+  padding: 3%;
+}
+.container .bottom-boxes ul li {
+  list-style-type: circle;
+}
+.container .bottom-boxes .bottom-box {
+  width: 50%;
+  height: 15rem;
+  background-color: #e6e6e6;
+  margin: 1%;
+  border-radius: 3.1%;
+  padding: 2%;
+}
+.container .bottom-boxes h3 {
+  text-decoration: underline;
+}
