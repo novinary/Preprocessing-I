@@ -196,29 +196,35 @@ body {
 .container .first-content p {
   padding: 2%;
 }
-.container .bottom-boxes {
+.container .bottom-boxes,
+.container .bottom-box {
   display: flex;
+  /* .bottom-box {
+		width: 50%;
+		height: 15rem;
+		background-color: rgb(230, 230, 230);
+		margin: 1%;	
+		border-radius: 3.1%;
+		padding: @p-padding;
+		} */
 }
-.container .bottom-boxes h3 {
+.container .bottom-boxes h3,
+.container .bottom-box h3 {
   font-size: 3rem;
   margin-bottom: 2%;
+  margin-left: 2%;
 }
-.container .bottom-boxes ul {
+.container .bottom-boxes ul,
+.container .bottom-box ul {
   font-size: 2.5em;
   padding: 3%;
 }
-.container .bottom-boxes ul li {
+.container .bottom-boxes ul li,
+.container .bottom-box ul li {
   list-style-type: circle;
 }
-.container .bottom-boxes .bottom-box {
-  width: 50%;
-  height: 15rem;
-  background-color: #e6e6e6;
-  margin: 1%;
-  border-radius: 3.1%;
-  padding: 2%;
-}
-.container .bottom-boxes h3 {
+.container .bottom-boxes h3,
+.container .bottom-box h3 {
   text-decoration: underline;
 }
 .container .second-content {
