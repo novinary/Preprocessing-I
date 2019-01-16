@@ -232,8 +232,8 @@ body {
   padding: 1%;
 }
 .container .bottom-section {
-  padding: 2%;
   font-size: 1.4rem;
   display: flex;
   flex-direction: column;
+  padding: 2%;
 }
